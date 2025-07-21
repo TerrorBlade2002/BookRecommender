@@ -46,21 +46,9 @@ Copy
 ├── data-exploration.ipynb       # Exploratory analysis & cleaning steps
 ├── requirements.txt            # All Python package dependencies
 └── .env.example                # Template for your environment variables
+```
+## 🔧 Dependencies
 
-🗂 Project Structure
-bash
-Copy
-.
-├── books_with_emotions.csv     # Book metadata, thumbnails, and precomputed emotion scores
-├── tagged_description.txt      # Raw descriptions tagged with ISBN prefixes
-├── gradio-dashboard.py         # Main app: embeddings, classification, sentiment, Gradio UI
-├── vector-search.ipynb         # How vector DB is built with Chroma & OpenAIEmbeddings
-├── text-classification.ipynb   # Zero‑shot genre labeling with Hugging Face
-├── sentiment-analysis.ipynb    # Sentence‑level emotion scoring pipeline
-├── data-exploration.ipynb      # Exploratory analysis & cleaning steps
-├── requirements.txt            # All Python package dependencies
-└── .env.example                # Template for your environment variables
-🔧 Dependencies
 Python 3.11+
 
 pandas, numpy — data manipulation
@@ -75,7 +63,8 @@ python-dotenv — load API keys
 
 notebook, ipywidgets, matplotlib, seaborn — development notebooks
 
-📈 Future Plans
+## 📈 Future Plans
+
 🔄 Full‑Stack Web UI
 Migrate from Gradio to a React + Next.js frontend with Tailwind CSS for production-ready deployment.
 
