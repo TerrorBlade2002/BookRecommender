@@ -31,7 +31,7 @@ A fast, flexible book recommendation system powered by modern embedding search a
 ## 🚀 Project Structure
 
 🗂 Project Structure
-bash
+```bash
 Copy
 .
 ├── books_with_emotions.csv     # Book metadata, thumbnails, and precomputed emotion scores
