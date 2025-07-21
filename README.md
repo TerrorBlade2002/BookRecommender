@@ -33,6 +33,7 @@ A fast, flexible book recommendation system powered by modern embedding search a
 ```bash
 pip install -r requirements.txt
 
+## Project Structure
 🗂 Project Structure
 bash
 Copy
