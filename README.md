@@ -27,32 +27,11 @@ A fast, flexible book recommendation system powered by modern embedding search a
    ```bash
    git clone https://github.com/your-username/SemanticBookRecommender.git
    cd SemanticBookRecommender
-Install dependencies
 
-bash
-Copy
+## 🚀 Install Dependencies
+
+```bash
 pip install -r requirements.txt
-Set up your environment
-Create a .env in the project root:
-
-text
-Copy
-OPENAI_API_KEY=sk-...
-HUGGINGFACE_API_TOKEN=hf_...
-This enables embedding calls to OpenAI and model downloads from Hugging Face.
-
-Download the data
-
-Obtain books_with_emotions.csv and tagged_description.txt from your data source (e.g. Kaggle).
-
-Place them in the project root.
-
-Run the dashboard
-
-bash
-Copy
-python gradio-dashboard.py
-Open the local URL (e.g. http://localhost:7860) in your browser.
 
 🗂 Project Structure
 bash
@@ -67,14 +46,15 @@ Copy
 ├── data-exploration.ipynb       # Exploratory analysis & cleaning steps
 ├── requirements.txt            # All Python package dependencies
 └── .env.example                # Template for your environment variables
+
 🔧 Dependencies
-Python 3.11+
+Python 3.11+
 
 pandas, numpy — data manipulation
 
 langchain-community, langchain-chroma, langchain-openai — embedding & vector DB
 
-transformers — zero‑shot classification & emotion analysis
+transformers — zero-shot classification & emotion analysis
 
 gradio — interactive UI
 
