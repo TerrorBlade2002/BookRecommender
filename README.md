@@ -27,6 +27,9 @@ A fast, flexible book recommendation system powered by modern embedding search a
    ```bash
    git clone https://github.com/your-username/SemanticBookRecommender.git
    cd SemanticBookRecommender
+2. **Install dependencies**
+   ```bash
+   requirements.txt
 
 ## 🚀 Project Structure
 
