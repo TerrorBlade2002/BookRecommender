@@ -48,6 +48,19 @@ Copy
 ├── requirements.txt            # All Python package dependencies
 └── .env.example                # Template for your environment variables
 
+🗂 Project Structure
+bash
+Copy
+.
+├── books_with_emotions.csv     # Book metadata, thumbnails, and precomputed emotion scores
+├── tagged_description.txt      # Raw descriptions tagged with ISBN prefixes
+├── gradio-dashboard.py         # Main app: embeddings, classification, sentiment, Gradio UI
+├── vector-search.ipynb         # How vector DB is built with Chroma & OpenAIEmbeddings
+├── text-classification.ipynb   # Zero‑shot genre labeling with Hugging Face
+├── sentiment-analysis.ipynb    # Sentence‑level emotion scoring pipeline
+├── data-exploration.ipynb      # Exploratory analysis & cleaning steps
+├── requirements.txt            # All Python package dependencies
+└── .env.example                # Template for your environment variables
 🔧 Dependencies
 Python 3.11+
 
@@ -64,14 +77,18 @@ python-dotenv — load API keys
 notebook, ipywidgets, matplotlib, seaborn — development notebooks
 
 📈 Future Plans
-Full‑Stack Web UI
-Migrate from Gradio to a React‑Next.js frontend with Tailwind for production
+🔄 Full‑Stack Web UI
+Migrate from Gradio to a React + Next.js frontend with Tailwind CSS for production-ready deployment.
 
-User Accounts & Feedback
-Allow users to save favorites, rate recommendations, and refine the ranking models
+👤 User Accounts & Feedback
+Add user login, favorite books, ratings, and personalized ranking refinement.
 
-Expanded Facets
-Add filters for length, publication date, reading level, and community tags
+🧩 Expanded Facets
+Introduce filters like book length, publication year, reading level, and community-driven tags.
 
-Deployment & Scaling
-Dockerize the API & Web UI, deploy on AWS/GCP with autoscaling vector DB
+☁️ Deployment & Scaling
+Dockerize the backend.
+
+Host API and frontend using AWS/GCP with an autoscaling vector database.
+
+
