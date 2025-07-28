@@ -13,7 +13,7 @@ A fast, flexible book recommendation system powered by modern embedding search a
   - Provides a simple “genre” facet for filtering recommendations
 
 - **Emotion‑Based Ranking**  
-  - Applies a fine‑tuned Hugging Face emotion‑classification model (e.g. `distilbert-base-uncased-go-emotions-student`)  
+  - Applies a fine‑tuned Hugging Face emotion‑classification model (`distilbert-base-uncased-go-emotions-student`)  
   - Scores each description on emotions like Joy, Anger, Fear, Sadness, Surprise, etc.  
   - Allows sorting results by any selected tone
 
